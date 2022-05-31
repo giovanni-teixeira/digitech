@@ -1,0 +1,29 @@
+
+/* ScrollBar */
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #353d41;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(116, 116, 116);
+  border-radius: 20px;
+  border: none;
+}
+
+/* Animação Cards do Portfolio */
+.card{
+  border: none;
+  border-radius: 10px;
+  transition:0.5s;
+  cursor:pointer;
+  background-color: rgba(240, 240, 240, 0.726);
+}
+
+.card:hover{  /* Função :hover */
+  transform: scale(1.02);
+  box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+}

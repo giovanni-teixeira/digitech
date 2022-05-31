@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - DigiTech</title>
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+     <!-- Fonte -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+    <!-- Estilos -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Scripts (jQuery não pode ser o slim que vem do Boostrap) -->
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
+    <!-- Progress Bar -->
+    <script src="js/progressbar.min.js"></script>
+    <!-- Parallax -->
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+    <link rel="stylesheet" href="css/trabalhe-conosco.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+</head>
+<body>
+    <!-- Barra de Navegação -->
+    <header>
+        <div class="container" id="nav-container">
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <a href="index.html" class="navbar-brand">
+                    <img id="logo" src="img/logo-sem-fundo.png" alt="DigiTech">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggler="collapse" data-target="#navbar-links" 
+                aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" id="home-menu" href="index.html">Home</span></a>
+                        <a class="nav-item nav-link" id="about-menu" href="index.html">Sobre  Nós</span></a>
+                        <a class="nav-item nav-link" id="services-menu" href="index.html">Seviços</span></a>
+                        <a class="nav-item nav-link" id="team-menu" href="index.html">Equipe</span></a>
+                        <a class="nav-item nav-link" id="portfolio-menu" href="portfolio.html">Projetos</span></a>
+                        <a class="nav-item nav-link" id="contact-menu" href="contato.html">Contato</span></a>
+                        <a class="nav-item nav-link" id="contact-menu" href="trabalhe-conosco.html">Trabalhe Conosco</span></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+
+    <!-- Banner -->
+    <header>
+      <div class="overlay"></div>
+      <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="img/banner.mp4" type="video/mp4">
+      </video>
+      <div class="container h-100">
+        <div class="d-flex h-100 text-center align-items-center">
+          <div class="w-100 text-white">
+            <h1 class="display-3">Nosso Portfólio</h1>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Portfolio -->
+
+    <section id="gallery">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img src="img-portfolio/fortnite.webp" alt="" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Fortnite</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut eum similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto dolore modi dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
+            </div>
+          </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card">
+              <img src="img-portfolio/futebol.jpg" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Jogo de Futebol</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut eum similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto dolore modi dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
+
+              </div>
+              </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+              <div class="card">
+                <img src="img-portfolio/fall-guys.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Fall Guys</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut eum similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto dolore modi dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
+                </div>
+              </div>
+          </div>
+
+          <div class="col-lg-8 mb-2">
+            <div class="card">
+              <img src="img-portfolio/site1.png" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">EPICS</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut eum similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto dolore modi dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card">
+              <img src="img-portfolio/site2.png" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Services</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur. Ut eum similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto dolore modi dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card">
+              <img src="img-portfolio/site3.jpg" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Portfolio Pessoal</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut eum similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto dolore modi dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-lg-8 mb-4">
+            <div class="card">
+              <img src="img-portfolio/site5.jpg" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Call of Duty</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.  Incidunt repellendus praesentium quae!</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-8 mb-4">
+            <div class="card">
+              <img src="img-portfolio/site6.jpg" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">woodland</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.  Incidunt repellendus praesentium quae!</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card">
+              <img src="img-portfolio/ecommerce.jpg" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">CashRun</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.  Incidunt repellendus praesentium quae!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="card">
+              <img src="img-portfolio/ecommerce2.jpg" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Reborn</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.  Incidunt repellendus praesentium quae!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="card">
+              <img src="img-portfolio/ecommerce3.jpg" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">The Last of Us - Part II</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.  Incidunt repellendus praesentium quae!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="card">
+              <img src="img-portfolio/marketplace.jpg" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">PiqoCoin</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.  Incidunt repellendus praesentium quae!</p>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </section>
+    
+    
+    <!-- Rodapé -->
+    <section class="footer">
+        <h3 class="localizacao">Nossa Localização</h3>
+       <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d405688.6188626291!2d-122.32128054019717!3d37.403018512835146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb68ad0cfc739%3A0x7eb356b66bd4b50e!2sVale%20do%20Sil%C3%ADcio%2C%20CA%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1652903939774!5m2!1spt-BR!2sbr" width="50%" height="180" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       
+       <div class="social">
+           <a href="#"><i class="fab fa-instagram"></i></a>
+           <a href="#"><i class="fab fa-linkedin"></i></a>
+           <a href="#"><i class="fab fa-twitter"></i></a>
+           <a href="#"><i class="fab fa-facebook-f"></i></a>
+       </div>
+
+       <ul class="list">
+           <li>
+             <a href="#">Home</a>
+           </li>
+           <li>
+             <a href="#">Sobre Nós</a>
+           </li>
+           <li>
+             <a href="#">Serviços</a>
+           </li>
+           <li>
+             <a href="#">Equipe</a>
+           </li>
+           <li>
+             <a href="#">Projetos</a>
+           </li>
+           <li>
+             <a href="#">Contatos</a>
+           </li>
+           <li>
+             <a href="#">Trabalhe Conosco</a>
+           </li>
+       </ul>
+       <p class="copyright">
+         Digitech Development @ 2022
+       </p>
+   </section>
+</body>
+</html>

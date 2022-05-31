@@ -1,0 +1,187 @@
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #353d41;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(116, 116, 116);
+  border-radius: 20px;
+  border: none;
+}
+
+header {
+    position: relative;
+    background-color: black;
+    min-height: 4rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+
+
+input{
+  border-radius: 5px;
+}
+
+
+
+label [type="file"]{
+  padding: 10px 10px;
+  width: 450px;
+  color: #353d41;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+
+main{
+    height: 1000px;
+    position: relative;
+    display: inline-block;
+    
+    padding: 10px;
+    width: 100%;
+    
+}
+
+main > div {
+    
+    width: 50%;
+    height: 100%;
+}
+
+main > div > p{
+    
+    margin-top: 69px;
+    width: 585px;
+    text-align: center;
+    margin-left: 210px;
+    font-size: 25px;
+    
+}
+
+
+main > div > h2{
+    margin-left: 130px; 
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 53px;
+
+color: #575757;
+}
+
+form{
+    display: inline-block;
+    margin-top: -15px;
+    margin-left: 130px;
+}
+main > div > form > label{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 39px;
+}
+
+#nome{
+    background: #FFFFFF;
+    border: 1px solid #9B9B9B;
+    box-sizing: border-box;    
+}
+
+#email{
+    background: #FFFFFF;
+    border: 1px solid #9B9B9B;
+    box-sizing: border-box;   
+}
+
+#telefone{
+    background: #FFFFFF;
+    border: 1px solid #9B9B9B;
+    box-sizing: border-box;   
+}
+
+#departamentos{
+    background: #FFFFFF;
+    border: 1px solid #9B9B9B;
+    box-sizing: border-box;
+}
+
+#dispCheck{
+    margin-top: 39px;
+    margin-bottom: 39px;
+}
+
+#dispCheck label {
+  margin-left: 20px;
+}
+
+
+#mensagem{
+    background: #FFFFFF;
+    border: 1px solid #9B9B9B;
+    box-sizing: border-box;
+}
+
+button{
+    color: #FFF;
+    width: 860px;
+    height: 33px;
+    background-color: #353d41;
+    margin-top: 30px;
+    border: none;
+    border-radius: 20px;
+}
+
+.departament select{
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.textarea textarea{
+  border-radius: 8px;
+  border-bottom: 2px solid #ffffff;
+
+}
+
+#nome, #email, #telefone::placeholder{
+  padding: 5px; 
+}
